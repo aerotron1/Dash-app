@@ -4,11 +4,11 @@ from dash import html
 
 
 # setup
-dashboard = dash.Dash(__name__, title='My First Dash Deployment')
+app = dash.Dash(__name__, title='My First Dash Deployment')
 
 
 # Layout
-dashboard.layout = html.Div([
+app.layout = html.Div([
     html.H3('Consumer Behaviour Dashboard', style={
         'color': 'green',
         'padding-top': '60px',
@@ -24,4 +24,4 @@ dashboard.layout = html.Div([
 
 # run
 if __name__ == '__main__':
-    dashboard.run_server(debug=True)
+    app.run_server(debug=True)
