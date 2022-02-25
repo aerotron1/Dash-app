@@ -12,7 +12,8 @@
 
 - Runtime - check version of python build for https://devcenter.heroku.com/articles/python-support#supported-runtimes so for deployment specifiy python version python-3.9.10 used in runtime.txt file
 - Dependencies - wat libraries we require
-- Procfile - how we serve the app?
+- Procfile - how we serve the app? useed for heroku specifically
+
   Ref:
 
 https://docs.python.org/3/tutorial/venv.html
