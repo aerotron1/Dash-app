@@ -8,7 +8,11 @@
    the virtual enviroment used so the requirement.txt only contains
    whats necessary for the app rather than use everything. Because heroku will carry out installation and avoid uneccessary instalations.
    the freeze should store all the requirements in txt
+4. Heroku
 
-Ref:
+- Runtime - check version of python build for https://devcenter.heroku.com/articles/python-support#supported-runtimes so for deployment specifiy python version python-3.9.10 used in runtime.txt file
+- Dependencies - wat libraries we require
+- Procfile - how we serve the app?
+  Ref:
 
 https://docs.python.org/3/tutorial/venv.html
