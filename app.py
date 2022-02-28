@@ -5,7 +5,7 @@ from dash import html
 
 # setup
 app = dash.Dash(__name__, title='Dash Deployment')
-
+server = app.server
 
 # Layout
 app.layout = html.Div([
