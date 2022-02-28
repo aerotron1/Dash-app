@@ -4,7 +4,7 @@ from dash import html
 
 
 # setup
-app = dash.Dash(__name__, title='My First Dash Deployment')
+app = dash.Dash(__name__, title='Dash Deployment')
 
 
 # Layout
