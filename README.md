@@ -56,7 +56,7 @@ https://docs.python.org/3/tutorial/venv.html
 
 List the ready features here:
 
-- View the list of Albums by specifying the id. ????
+- View the visualised versiion of data in graphs.
 
 ## Screenshots
 
@@ -66,22 +66,13 @@ List the ready features here:
 
 Project Deliverables
 
-- Scripts that perform data cleaning and transformation
-- A cleared and transformed version of the data provided.
+- A cleaned and transformed version of the data provided.
+- Interactive visualisation of customer expectations using cleaned data.
 
 Install / setup one's local environment / get started with the project.
 
-- INSTALL jupyter NOTEBOOK using pip3 install notebook
-
-- Install the project requires a connection string of the local host or MongoDb deployment.
-- Once connected a few installations were carried out before the API was built. See below
-- Using terminal:-
-- Scaffold an express application `npm install -g express-generator` and launch VS code.
-- Without going through all the steps install npm project `npm init -y`.
-- Installed nodemon in the dev enviroment as it's not required in global enviroment during production `npm install --save-dev nodemon`
-- Installed eslint used in two cases, adhere to set standard and how it was violated.
-- Run npm start.
-- Use postman see to see the results for example to view the genres (see) ensure to use the token received when logged in. Under header specify the key: Authorisation and value: jwt [token key]. This will display the array of genres.
+- Install via terminal pip3 install dash
+- Run the dashoard app python3 app.py
 
 ## Development Stage
 
@@ -93,18 +84,16 @@ Install / setup one's local environment / get started with the project.
 
 2. What are you going to work on next
 
-- upload data using jupytor notebook
-- check the data for errors
--
+- Create graphs to show visual data, based on customer expectations
 
 3. What blockers you have (if any)
 
-26/02/22
+14/03/22
 
 1. What have you done so far
 
-- upload data using jupytor notebook
-- check the data for errors
+- Created graphs to show visual data, using plotly
+- Import plotly and pandas
 
 2. What are you going to work on next
 
@@ -133,11 +122,11 @@ Project is: _in progress_ / _complete_
 
 This project was based on class tutorials
 
-- Introduction to MongoDB.
+- Introduction to Dash.
 
 Other resources used for the project include : -
 
-- [Swagger](https://swagger.io/specification/).
+- [Dash](https://dash.plotly.com/).
 
 ## Contact
 

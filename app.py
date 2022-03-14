@@ -43,21 +43,18 @@ app.layout = html.Div([
     html.Br(),
     html.Br(),
     dcc.Graph(
-        # 2nd part graph
         figure={},
         id='best-performance'
     ), 
     html.Br(),
     html.Br(),
     dcc.Graph(
-        # 2nd part graph
         figure={},
         id='sales-per-hour'
     ),
     html.Br(),
     html.Br(),
     dcc.Graph(
-        # 2nd part graph
         figure={},
         id='profitable-branches'
     )
